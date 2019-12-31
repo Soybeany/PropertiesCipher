@@ -6,7 +6,7 @@
 
     <groupId>com.github.Soybeany</groupId>
     <artifactId>CipherMavenPlugin</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.0</version>
     <modules>
         <module>plugin</module>
         <module>spring</module>
