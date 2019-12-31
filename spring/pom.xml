@@ -7,10 +7,12 @@
     <parent>
         <artifactId>CipherMavenPlugin</artifactId>
         <groupId>com.github.Soybeany</groupId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
     </parent>
 
     <artifactId>spring</artifactId>
+
+    <description>XML中使用PropertyPlaceholderConfigurer，代码中使用CipherPropertyLoader</description>
 
     <dependencies>
         <dependency>

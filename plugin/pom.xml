@@ -7,12 +7,16 @@
     <parent>
         <artifactId>CipherMavenPlugin</artifactId>
         <groupId>com.github.Soybeany</groupId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
     </parent>
 
     <groupId>com.github.Soybeany.PropertiesCipher</groupId>
     <artifactId>plugin</artifactId>
     <packaging>maven-plugin</packaging>
+
+    <description>
+        建议在process-sources的phase中执行，有secretKey与matchRegex参数
+    </description>
 
     <dependencies>
         <dependency>
