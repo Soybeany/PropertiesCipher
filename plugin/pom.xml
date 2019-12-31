@@ -7,9 +7,10 @@
     <parent>
         <artifactId>CipherMavenPlugin</artifactId>
         <groupId>com.github.Soybeany</groupId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
 
+    <groupId>com.github.Soybeany.PropertiesCipher</groupId>
     <artifactId>plugin</artifactId>
     <packaging>maven-plugin</packaging>
 
