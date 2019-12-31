@@ -7,7 +7,7 @@
     <parent>
         <artifactId>CipherMavenPlugin</artifactId>
         <groupId>com.github.Soybeany</groupId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
     </parent>
 
     <artifactId>spring</artifactId>
@@ -17,7 +17,7 @@
             <groupId>com.github.Soybeany</groupId>
             <artifactId>util</artifactId>
             <version>${project.version}</version>
-            <optional>true</optional>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
